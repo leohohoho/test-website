@@ -1,0 +1,25 @@
+* {
+    font-family: "Lato", 'Sans Serif';
+}
+h2 {
+    color: darkblue;
+    font-size: 36px;
+}
+h3 {
+  font-size: 32px;
+}
+h4 {
+  font-size: 28px;
+}
+h5 {
+  font-size: 24px;
+}
+#aDiv{
+    background-color: lightgray;
+}
+p {
+    font-size: 20px;
+}
+.center {
+   text-align:center;
+}

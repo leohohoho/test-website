@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<title>Tom Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<script src="script.js"></script>
+
+<style>
+body{font-family: "Lato", sans-serif}
+</style>
+
+<body>
+<!-- Navbar -->
+<div class="top">
+    <a href="#" class="top-item button padding-large">HOME</a>
+    <a href="#about" class="top-item button padding-large">ABOUT</a>
+    <a href="#family" class="top-item button padding-large">FAMILY</a>
+    <a href="#contact" class="top-item button padding-large">CONTACT</a>
+</div>
+
+<!--Page Content-->
+<div class="content" style="max-width:2000px;margin-top:46px">
+    <!--Cover Image-->
+    <div class="display-container center">
+        <img src="https://img.purch.com/h/1400/aHR0cDovL3d3dy5saXZlc2NpZW5jZS5jb20vaW1hZ2VzL2kvMDAwLzEwNC84MTkvb3JpZ2luYWwvY3V0ZS1raXR0ZW4uanBn" style="width:100%">
+        <h3>Tom Cat</h3>
+        <h4>Who does not love cute cats?</h4> 
+    </div>
+
+    <!--The About Section-->
+    <div class="container content center" style="max-width:800px" id="about">
+        <h2>ABOUT TOM & US</h2>
+        <h5><i>We love cats</i></h5>
+        <p>We have created a fictional website for cat lovers. A cat is a small pet animal.
+            It has four short legs and a beautiful furry tail. Its body is covered wiht soft and silky hairs. Its claws and teeth are sharp.
+            It has bright and greyish eyes, It can see even in the darkness.<br>
+            Cats can be found all over the world. They are beautiful small creatures resembling the likes of a tiger.
+            They live on the streets as well as in our houses. Cats can be shy in nature and can even take time while adjusting with the environment.
+            One needs to be patient and deal with them with a lot of love and care.
+        </p>
+    </div>
+
+    <!--The Family Section-->
+    <div class="container content center" id="family">
+        <h2>TOM'S FAMILY</h2>
+        <img src="https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60" alt="Tom's Dad" style="width:100%">
+        <h5>This is Tom's Dad</h5>
+        <img src="https://www.petmd.com/sites/default/files/Senior-Cat-Care-2070625.jpg" alt="Tom's Mom" style="width:100%">
+        <h5>This is Tom's Mom</h5>
+    </div>
+
+    <!--The Contact Section-->
+    <div class="Container padding-large" id="contact">
+        <h3>CONTACT</h3>
+        <p>Lets leave a message for Tom and his family</p>
+        <form action="#">
+            <input class="input border" type="text" placeholder="Name" required name="Name">
+            <input class="input section border" type="text" placeholder="Email" required name="Email">
+            <input class="input section border" type="text" placeholder="Message" required name="Message">
+            <button class="button section" type="submit" onclick="sendFunction()">SEND MESSAGE</button>
+        </form>
+    </div>
+
+<!--End of page content-->
+</div>
+
+
+</body>
+</html>
